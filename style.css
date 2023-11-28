@@ -1,0 +1,23 @@
+body{
+    background-image: url('img/tmb_237910_586494.png');
+    background-image: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card>img{
+    margin-top: 10px;
+}
+
+.card{
+    background: rgba(0, 0, 0, .5);
+}
+h4{
+    color: antiquewhite;
+}
+p{
+    color: antiquewhite;
+}
