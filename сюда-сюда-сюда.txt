@@ -1,0 +1,11 @@
+//создаём базу данных
+CREATE DATABASE seregadb;
+//подключаемся к ней
+\c seregadb;
+//создаем в ней таблицу
+CREATE TABLE pivo(id SERIAL PRIMARY KEY, name VARCHAR(255), title VARCHAR(255), price VARCHAR(255), img VARCHAR(255));
+//проверка
+SELECT * FROM pivo;
+//--------далее в терминале вскода
+npm run dev
+//вроде все
